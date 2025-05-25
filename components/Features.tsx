@@ -1,37 +1,37 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
+import { FaReact, FaDatabase, FaShieldAlt, FaApple, FaCoins, FaMoneyBillWave, FaRocket, FaBomb, FaFire, FaLevelUpAlt, FaArrowAltCircleRight, FaRegArrowAltCircleUp, FaUserShield, FaCashRegister } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
 
 const Features = () => {
   const features = [
     {
-      icon: SiNextdotjs,
+      icon: FaApple,
       title: "Next.js 14",
       description: "App dir, Routing, Layouts, components, and more.",
     },
     {
-      icon: FaReact,
+      icon: FaCoins,
       title: "React 18",
       description: "Server and Client Components. using hooks and context.",
     },
     {
-      icon: FaDatabase,
+      icon: FaMoneyBillWave,
       title: "Database",
       description: "Postgres basic database and other cool features to come.",
     },
     {
-      icon: SiTailwindcss,
+      icon: FaRegArrowAltCircleUp,
       title: "Components",
       description: "Awesome components built with Tailwind CSS and more to come.",
     },
     {
-      icon: FaShieldAlt,
+      icon: FaUserShield,
       title: "Authentication",
       description: "Talk about your authentication features built into your app.",
     },
     {
-      icon: SiStripe,
+      icon: FaCashRegister,
       title: "Subscriptions",
       description: "Talk about your subscription features and how they work.",
     },
